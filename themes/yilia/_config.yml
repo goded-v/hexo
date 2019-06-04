@@ -123,7 +123,7 @@ smart_menu:
 friends:
   在线图片压缩: https://tinypng.com/
 
-aboutme: a rookie
+aboutme: 写代码像cxk
 deploy:
   type: git
   repo: https://github.com/goded-v/goded-v.github.io

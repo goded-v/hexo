@@ -13,17 +13,17 @@ tags:
 
 最近在看vue的风格指南时，发现了一个以前在学习，甚至开发时忽略的问题。
 
-![Image text](domUpdate/vuedom.png)
+![Image text](/assets/img/vuedom.png)
 
 ### 现象
 
 看到上面的一段话，想到自己在刚开发的时候遇到过类似的问题。就是在强行修改DOM后（比如改变class）；将v-for 模板数组中，改变的这条删除掉，发现，该class还在。延伸到的场景就是先选择一个或者多个列表，改变了样式(表明该列表被选中)，再删除选中的类别。此时发现该样式还在。描述的不是很清楚，直接上图。
 
-![Image text](domUpdate/demo_list.png)
+![Image text](/assets/img/demo_list.png)
 
 此时选中了第一条和第二条，点删除后如下图:
 
-![Image text](domUpdate/demo_list2.png)
+![Image text](/assets/img/demo_list2.png)
 
 这时就会发现，为啥标记的颜色会还在，而且出现在了这两条上面。
 
@@ -121,7 +121,7 @@ deleteItem(){
 
 在渲染赋值的时候先将list数组赋值为空，在视图完成更新后，再赋值。这时就能实现想要的效果。
 
-![Image text](domUpdate/demo_list3.png)
+![Image text](/assets/img/demo_list3.png)
 
 ### 方案二
 
@@ -223,7 +223,7 @@ change(){
 },
 ```
 
-![Image text](../_posts/domUpdate/demo_list4.png)
+![Image text](/assets/img/demo_list4.png)
 
 
 这也是由于强制操作dom造成的。如果绑定上key值，就会发现解决问题了。

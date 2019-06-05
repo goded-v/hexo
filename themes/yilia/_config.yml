@@ -117,8 +117,8 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  friends: '实用工具'
+  aboutme: '我'
 
 friends:
   在线图片压缩: https://tinypng.com/

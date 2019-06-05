@@ -6,7 +6,7 @@ tags:
     - android             
 ---
 
-<center>H5混合开发软键盘适配方案</center>
+H5混合开发软键盘适配方案
  <!-- more -->
  
 ### 现象：

@@ -5,7 +5,7 @@ tags:
     - vue 
     - Dom             
 ---
-### 踩坑vue v-for操作DOM后不更新
+踩坑vue v-for操作DOM后不更新
  <!-- more -->
 
 

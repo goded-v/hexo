@@ -27,7 +27,7 @@ tags:
 
 这时就会发现，为啥标记的颜色会还在，而且出现在了这两条上面。
 
-先看下整体的代码（为了阅读方便，后面只是关键代码，完整代码见https://github.com/goded-v/goded-v/blob/master/js/dom.html）
+先看下整体的代码（为了阅读方便，后面只是关键代码，完整代码见https://github.com/goded-v/goded-v/blob/master/js/dom.html
 
 ```
 

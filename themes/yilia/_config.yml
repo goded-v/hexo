@@ -92,11 +92,11 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_owner: goded-v      #你的 GitHub ID
+gitment_repo: goded-v.github.io          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: 03fe99cf3da2480ecf6e           #client ID
+  client_secret: 2047863579e00127046df6a568bdfa9891ccfe7e       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:

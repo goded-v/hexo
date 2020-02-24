@@ -96,7 +96,7 @@ Promise.prototype.then = function (onFulfilled,onRejected) {
                 }
             },0);
         }
-        // 如果异步执行则位于pending状态
+        // 如 果异步执行则位于pending状态
         if (this.status === "pending") {
             // 保存回调函数
             this.onResolvedCallbacks.push(() => {

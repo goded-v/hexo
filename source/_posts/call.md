@@ -52,7 +52,7 @@ Function.prototype.bind = function(context) {
     let me = this;
     let args = [...arguments].slice(1);
     return function F() {// 因为bind转换后的函数可以作为构造函数使用，此时this应该指向构造出的实例，而bind函数绑定的第一个参数。
-        // 判断是否被当做构造函数使用
+        //  判断是否被当做构造函数使用
         if (this instanceof F) {
             return me.apply(this, args.concat([...arguments]));
         }

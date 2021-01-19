@@ -5,7 +5,6 @@ tags:
     - javascript
 ---
 defer和async的区别
-
 <!-- more -->
 
-![script](/assets/img/script.png)
+![Image text](/assets/img/script.png)
